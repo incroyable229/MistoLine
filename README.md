@@ -12,7 +12,7 @@ pipeline_tag: text-to-image
  
 ## Control Every Line!
 ![Intro Image](assets/intro.png)  
-You can download this model here: [HuggingFace TheMistoAI](https://huggingface.co/TheMistoAI/MistoLine)
+[GitHub Repo](https://github.com/TheMistoAI/MistoLine)
 
 MistoLine: A Versatile and Robust SDXL-ControlNet Model for Adaptable Line Art Conditioning.  
 
