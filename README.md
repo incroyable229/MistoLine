@@ -113,10 +113,10 @@ image = load_image("https://huggingface.co/datasets/hf-internal-testing/diffuser
 controlnet_conditioning_scale = 0.5
 
 controlnet = ControlNetModel.from_pretrained(
-    "diffusers/controlnet-canny-sdxl-1.0",
+    "TheMistoAI/MistoLine",
     torch_dtype=torch.float16
 )
-vae = AutoencoderKL.from_pretrained("TheMistoAI/MistoLine", torch_dtype=torch.float16)
+vae = AutoencoderKL.from_pretrained("madebyollin/sdxl-vae-fp16-fix", torch_dtype=torch.float16)
 pipe = StableDiffusionXLControlNetPipeline.from_pretrained(
     "stabilityai/stable-diffusion-xl-base-1.0",
     controlnet=controlnet,
