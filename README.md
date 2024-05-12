@@ -144,6 +144,7 @@ images[0].save(f"hug_lab.png")
 * mistoLine_fp16.safetensors : FP16 weights, for ComfyUI and AUTOMATIC1111-WebUI.
 
 ## !!!mistoLine_rank256.safetensors better than mistoLine_fp16.safetensors
+## !!!mistoLine_rank256.safetensors 表现更加出色！！
 
 ## ComfyUI Usage
 ![ComfyUI](assets/comfyui.png)
