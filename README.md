@@ -9,8 +9,8 @@ tags:
 pipeline_tag: text-to-image
 ---
 # MistoLine
- 
 ## Control Every Line!
+
 ![Intro Image](assets/intro.png)  
 [GitHub Repo](https://github.com/TheMistoAI/MistoLine)
 
@@ -141,7 +141,9 @@ images[0].save(f"hug_lab.png")
 
 ## Checkpoints
 * mistoLine_rank256.safetensors : General usage version, for ComfyUI and AUTOMATIC1111-WebUI.  
-* mistoLine_fp16.safetensors : FP16 weights, for ComfyUI and AUTOMATIC1111-WebUI.  
+* mistoLine_fp16.safetensors : FP16 weights, for ComfyUI and AUTOMATIC1111-WebUI.
+
+## !!!mistoLine_rank256.safetensors better than mistoLine_fp16.safetensors
 
 ## ComfyUI Usage
 ![ComfyUI](assets/comfyui.png)
