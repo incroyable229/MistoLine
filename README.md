@@ -114,7 +114,7 @@ controlnet_conditioning_scale = 0.5
 
 controlnet = ControlNetModel.from_pretrained(
     "TheMistoAI/MistoLine",
-    torch_dtype=torch.float16
+    torch_dtype=torch.float16,
     variant="fp16",
 )
 vae = AutoencoderKL.from_pretrained("madebyollin/sdxl-vae-fp16-fix", torch_dtype=torch.float16)
