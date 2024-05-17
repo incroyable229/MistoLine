@@ -14,6 +14,9 @@ pipeline_tag: text-to-image
 ![Intro Image](assets/intro.png)  
 [GitHub Repo](https://github.com/TheMistoAI/MistoLine)
 
+## NEWS!!!!! Anyline-preprocessor is released!!!!
+[Anyline Repo](https://github.com/TheMistoAI/ComfyUI-Anyline)
+
 **MistoLine: A Versatile and Robust SDXL-ControlNet Model for Adaptable Line Art Conditioning.**  
 
 MistoLine is an SDXL-ControlNet model that can adapt to any type of line art input, demonstrating high accuracy and excellent stability. It can generate  high-quality images (with a short side greater than 1024px) based on user-provided line art of various types, including hand-drawn sketches, different  ControlNet line preprocessors, and model-generated outlines. MistoLine eliminates the need to select different ControlNet models for different line  preprocessors, as it exhibits strong generalization capabilities across diverse line art conditions.  
